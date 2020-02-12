@@ -1,0 +1,78 @@
+body{ background-color: #241c1c; padding: 0;}
+#movieHeader .p-r{ padding-right: 20px;}
+/* #movieHeader nav{ padding:10px  0;} */
+#movieHeader .col{ padding: 0;}
+/* heading */
+h1,h3{ margin: 0;}
+/* Links */
+.navbar-light .navbar-brand {
+ font-family: "Roboto",sans-serif;
+ font-weight: 600 !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{ 
+ color: darkorange;
+ font-size: 21px;
+ font-weight: bold;
+ font-family: "Roboto",sans-serif;
+}
+/* btn */
+.btnSignout{
+ background: darkorange;
+ color: #fff !important;
+ border: 0;
+ border-radius: 3em;
+ font-family: "Raleyway",sans-serif;
+ font-weight: 500;
+ transition: ease-in;
+}
+.btnSignout:hover{ 
+ background: transparent;
+ color: darkorange !important;
+ transition: ease-in-out;
+}
+/* AddMovie */
+.addMovie{
+ background: grey;
+ padding: 20px 0;
+}
+/* btn-read , btn-update */
+#btn-read ,#btn-update,#btn-delete{ margin-left: 10px;}
+/* resultMovie */
+.resultMovie{ background: darkorange;}
+
+.signUpform{ padding: 50px 0; background: grey; color: #fff!important;}
+.signUpform p a{
+ color: darkorange;
+ font-weight: 500;
+}
+.form-signin{
+ background: rgba(248, 249,250, 0.72);
+}
+.form-signin h1{ 
+ color: #000;
+ font-weight: 900;
+ font-family: "Roboto",sans-serif;
+}
+.form-signin p{
+ color: darkred !important;
+}
+.form-signin p a{
+ color: darkorange;
+ font-weight: 500;
+ font-family: "Roboto",sans-serif;
+}
+.form-signin input[type="text"]{
+ border-radius: 0;
+}
+.form-signin input[type="text"]:focus{
+ border: 0;
+}
+.help-block{ color: red; display: none;}
+
+/* loginPage */
+.loginPage{ 
+ background: url("../images/bg.jpg") no-repeat center;
+ background-position: center;
+ background-size: cover;
+ color: #fff;
+}
